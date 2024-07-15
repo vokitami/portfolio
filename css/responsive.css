@@ -1,0 +1,109 @@
+/*resposivo Tablet*/
+@media only screen and (min-width: 700px) and (max-width: 990px) {
+    .email__container{
+        width: 53%;
+        height: 10%;
+        left: 3%;
+    }
+    .esferas{
+        left: 40%;
+        top: -23%;
+    }
+    .esfera__bottom{
+        bottom: -12%;
+        left: -43% ;
+    }
+    .card[data-card="1"]{
+        background-position: 10%;
+    }
+}
+/*responsivo PC*/
+@media only screen and (min-width: 991px) {
+    .cabecera__container{
+        display: block;       
+    }
+    .esferas{
+        left: 40%;
+        top: -20%;
+        & .esferaG__container{
+            width: 500px;
+            height: 500px;
+            & .esfera__grande{
+                left: 115px;
+            }
+        }
+        & .esferaP_container{
+            width: 350px;
+            height: 350px;
+            & .esfera__pequeña{
+                left: 75px;
+            }
+        }
+    }
+    .esfera__bottom{
+        bottom: -16%;
+        left: -48%;
+        & .esferaG,
+        .esferaP{
+            width: 500px;
+            height: 500px;
+            & .esfera__g,
+            .esfera__p{
+                left: 130px;
+            }
+        }    
+    }
+    .descripcion{
+        top: 22%;
+        width: 40%;
+    }
+    .social__media{
+        top: 23%;
+    }
+    .email__container{
+        top: 24%;
+        left: 2%;
+        width: 35%;
+    }
+    .boton__informacion{
+        top: 48%;
+    }
+    .sobre__mi{
+        width: 50%;
+        left: 25%;
+    }
+    .skills__container{
+        width: 45%;
+        left: 27.5%;
+    }
+    .formacion__container div{
+        width: 50%;
+    }
+    .proyectos__container{
+        width: 70%;
+        height: 70vh;
+        padding: 20px;
+        left: 15%;
+        & .card__group{
+            flex-direction: row; 
+            width: 100%;
+            justify-content: space-evenly;
+            & .card{
+                flex: 0 0 350px;
+                height: 400px; 
+            }
+            & .card:not(:first-child){
+                margin-left: -130px; 
+            }
+            & .card:not(:nth-child(3)){
+                margin-bottom: 0; 
+            }
+            & .card:hover{
+                transform: translate(-55px, -16px);
+            }
+            & .card[data-card="1"]{
+                background-position: 10%;
+            }
+        }
+    }
+}

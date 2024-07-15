@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana Karen - Portafolio</title>
+    
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    
+    <!-- Estilos -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="module" href="./index.js" defer>
+</head>
+<body>
+    <!-- navegacion-->
+    <header id="cabecera">
+        <nav class="cabecera__container">
+            <ul class="cabecera__info">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#sobre-mi">Sobre mi</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#formacion">Formación</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="home" class="info">
+            <!--esfera__Luz-->
+            <div class="esferas">
+                <div class="esferaG__container">
+                    <div class="esfera__grande"></div>
+                </div>
+                <div class="esferaP_container">
+                    <div class="esfera__pequeña"></div>
+                </div>
+            </div>
+            <!--esfera de abajo-->
+            <div class="esfera__bottom">
+                <div class="esferaG">
+                    <div class="esfera__g"></div>
+                </div>
+                <div class="esferaP">
+                    <div class="esfera__p"></div>
+                </div>
+            </div>
+            <div class="descripcion">
+                <h1><strong>Hola, soy</strong> Karen Pacheco</h1>
+                <h2>Front-End Developer</h2>
+                <p>Si puedes imaginarlo, puedes programarlo!</p>
+            </div>
+            <div class="social__media">
+                <a href="https://www.linkedin.com/in/karenpacheco-ds/" target="_blank" rel="nofollow" title="Linkedin" class="linkedin">Linkedin <i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/vokitami" target="_blank" title="GitHub" class="gitHub">GitHub<i class="fab fa-github"></i></a>
+                <a href="">CV<i class="fa-solid fa-file-lines"></i></a>
+            </div>
+            <div class="email__container">
+                <p class="email" id="email" data-email>annawe407@gmail.com</p>
+                <div class="botones">
+                    <a href="mailto:annawe407@gmail.com"  class="enviar" title="enviar correo" data-enviar ><i class="fa-solid fa-paper-plane"></i></a>
+                    <button type="button" class="copiar" title="copiar" data-copiar ><i class="fa-regular fa-clone"></i></button>
+                </div>
+            </div>
+            <div class="boton__informacion">
+                <a href="#sobre-mi"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <div class="container">
+            <section id="sobre-mi" class="sobre__mi">
+                <h2>Sobre mí.</h2>
+                <figure>
+                    <img src="./img/pic__profile.jpeg" alt="Imagen de perfil">
+                    <figcaption>Estudiante de Ingeniería de Software y Redes con conocimientos básicos en Python, HTML, CSS y 
+                        JavaScript. Motivada para aprender y desarrollar habilidades en programación y tecnologías 
+                        emergentes. Dispuesta a adaptarme y crecer profesionalmente en un entorno de trabajo 
+                        dinámico. Abierta a adquirir conocimientos en otras tecnologías según sea necesario.</figcaption>
+                </figure>
+                    
+                
+            </section>
+            <!--skills-->
+            <section id="skills" class="skills__container">
+                <h2>SKILLS</h2>
+                <div class="skills">
+                    <div class="html__container">
+                        <i class="fab fa-html5"></i>
+                        <!-- Más contenido de HTML5 -->
+                    </div>
+                    <div class="css__container">
+                        <i class="fab fa-css3-alt"></i>
+                        <!-- Más contenido de CSS -->
+                    </div>
+                    <div class="js__container">
+                        <i class="fab fa-js"></i>
+                        <!-- Más contenido de JavaScript -->
+                    </div>
+                    <div class="git__container">
+                        <i class="fa-brands fa-git-alt"></i>
+                    </div>
+                    <div class="github__container">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="css__container">
+                        <i class="fa-brands fa-react"></i>
+                        <!-- Más contenido de CSS -->
+                    </div>
+                    <div class="css__container">
+                        <i class="fa-brands fa-figma"></i>
+                        <!-- Más contenido de CSS -->
+                    </div>
+                </div>
+            </section>
+            <section id="formacion" class="formacion__container">
+                <div class="formacion__academica">
+                    <h2>Formación Académica</h2>
+                    <h2>Educación</h2>
+                    <p>UNITEC</p>
+                    <p>Ingeniería de Software y Redes.</p> 
+                    <p>2022 – Actualidad</p>
+                    <p>• Cursos: Fundamentos de programación, Desarrollo Web, Redes de Computadoras, 
+                    Algoritmos y Estructuras de Datos</p>    
+                        
+                    <h2>Aprendizaje Autodidacta</h2>
+                    <p>• Plataformas de Aprendizaje: Participación en cursos en línea como ONE (Oracle Next 
+                        Education) y Alura Latam y tutoriales para mejorar mis habilidades de programación.
+                    </p>
+                </div>
+            </section>
+    
+            <section id="proyectos" class="proyectos__container">
+                <h2>Proyectos</h2>
+                <div class="card__group">
+                    <article class="card" data-card="1" title="encriptador de textos">
+                            <a href="https://vokitami.github.io/encriptadorDeTextos/" target="_blank"></a>
+                    </article>
+                    <article class="card" data-card="2"></article>
+                    <article class="card" data-card="3"></article>
+                </div>
+                    
+                
+            </section>
+        </div>
+        <footer>
+            <div>
+                <p>Realizado por: Karen Pacheco</p>
+            </div>
+        </footer>
+        
+    </main>
+
+    <!--<div class="boton__regreso" title="Regresar al principio">
+        <a href="#cabecera" class="regreso"><i class="fas fa-angle-up"></i></a>
+    </div>-->
+    <!-- Agregar sección de contacto con email -->
+</body>
+</html>
